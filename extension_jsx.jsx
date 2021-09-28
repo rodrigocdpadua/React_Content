@@ -12,3 +12,8 @@ const JSX =
     <li>z</li>
   </ul>
 </div>;
+
+// Comments inside JSX
+const JSX = <div>
+  {/* Comments */}
+</div>;
