@@ -17,3 +17,14 @@ const JSX =
 const JSX = <div>
   {/* Comments */}
 </div>;
+
+/*
+With React, we can render this JSX directly to the HTML DOM
+using React's rendering API known as ReactDOM.
+
+Use the ReactDOM.render() method to render this component to the page.
+You can pass defined JSX elements directly in as the first argument and
+Use document.getElementById() to select the DOM node to render them to. 
+*/
+
+ReactDOM.render(JSX, document.getElementById('challenge-node'));
