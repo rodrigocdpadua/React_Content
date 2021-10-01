@@ -27,4 +27,4 @@ You can pass defined JSX elements directly in as the first argument and
 Use document.getElementById() to select the DOM node to render them to. 
 */
 
-ReactDOM.render(JSX, document.getElementById('challenge-node'));
+ReactDOM.render(JSX, document.getElementById(''));
