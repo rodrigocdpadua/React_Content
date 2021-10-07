@@ -1,9 +1,7 @@
 /*
-Components are the core of React.
-Everything in React is a component and here you will learn how to create one.
+Components are the core of React. Everything in React is a component and here you will learn how to create one.
 
-To create a component with a function,
-You simply write a JavaScript function that returns either JSX or null. 
+To create a component with a function, you simply write a JavaScript function that returns either JSX or null. 
 */
 const MyComponent = function() {
   return (<div>Text</div>);

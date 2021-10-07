@@ -1,6 +1,5 @@
 /* 
-When React encounters a custom HTML tag that references another component
-(a component name wrapped in < /> like in this example), it renders the markup for that component in the location of the tag. 
+When React encounters a custom HTML tag that references another component (a component name wrapped in < /> like in this example), it renders the markup for that component in the location of the tag. 
 */
 const ChildComponent = () => {
   return (

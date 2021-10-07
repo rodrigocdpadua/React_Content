@@ -1,6 +1,6 @@
 /*
-One of the most important topics in React is state. State consists of any data your application needs to know about,
-that can change over time. You want your apps to respond to state changes and present an updated UI when necessary.
+One of the most important topics in React is state. State consists of any data your application needs to know about, that can change over time.
+You want your apps to respond to state changes and present an updated UI when necessary.
 React offers a nice solution for the state management of modern web applications.
 */
 class StatefulComponent extends React.Component {
@@ -26,8 +26,8 @@ You have access to the state object throughout the life of your component.
 You can update it, render it in your UI, and pass it as props to child components.
 
 React provides a method for updating component state called setState.
-You call the setState method within your component class like so: this.setState(),
-passing in an object with key-value pairs. The keys are your state properties and the values are the updated state data.
+You call the setState method within your component class like so: this.setState(), passing in an object with key-value pairs.
+The keys are your state properties and the values are the updated state data.
 */
 this.setState({
     name: "React Rocks!"
